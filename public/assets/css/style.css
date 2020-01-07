@@ -1,0 +1,107 @@
+header {
+    border-bottom: 2px solid white;
+    background-color: #78a22f;
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+
+    padding: 20px;
+    
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.header-button {
+    padding: 10px;
+    background-color: purple;
+    border:2px solid 78a22f;
+}
+
+.header-button:hover {
+    color: purple;
+    background: #fff;
+}
+
+.header-button:active {
+    color: purple;
+    background: #fff;
+    border:2px solid purple;
+}
+
+.banner-container {
+    background-image: url(../img/banner-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.banner-container h1 {
+    font-size: 60px;
+}
+
+.banner-container h2 {
+    font-size: 30px;
+}
+.banner-container h1,
+.banner-container h2 {
+    color: #fff;
+}
+
+.scrapped-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+.scrapped-items .items {
+    display: flex;
+    flex-direction: column;
+    width: 31.33%;
+    margin: 0 1%;
+}
+
+.scrapped-items .items:nth-child(n+4) {
+    margin-top:20px;
+}
+
+
+.scrapped-items .items a {
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.scrapped-items .items p {
+    height: 100px;
+    margin: 10px 0;
+}
+
+
+.scrapped-items button {
+    padding: 20px;
+    background-color:#78a22f;
+    color: #fff;
+}
+
+.scrapped-items button:hover {
+    background-color: purple;
+}
